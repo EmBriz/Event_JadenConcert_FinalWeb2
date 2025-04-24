@@ -1,0 +1,44 @@
+import React from "react";
+
+const Footer: React.FC = () => {
+  return (
+    <footer className="flex flex-wrap gap-10 mt-44 max-w-full w-[1206px] max-md:mt-10">
+      <div className="flex-auto max-md:max-w-full">
+        <div className="flex gap-5 max-md:flex-col">
+          <div className="w-3/5 max-md:ml-0 max-md:w-full">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/dab1a2e56ad0fe5dd4b802026c32e1d13f003e15?placeholderIfAbsent=true&apiKey=bec7f973c0e14abe8a6a4aacdca9776f"
+              alt="Concert Image 1"
+              className="object-contain mr-0 w-full aspect-square"
+            />
+          </div>
+          <div className="ml-5 w-2/5 max-md:ml-0 max-md:w-full">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/d5cce5a79b2a5ed45b2eee690ddeea227e3b39b2?placeholderIfAbsent=true&apiKey=bec7f973c0e14abe8a6a4aacdca9776f"
+              alt="Concert Image 2"
+              className="object-contain grow mt-56 w-full aspect-[0.96] max-md:mt-10"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="flex gap-10 self-end mt-72 max-md:mt-10">
+        <a href="#" className="flex flex-col justify-center p-2.5">
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/19dfb215d550748d976c07db19222ad5d5d12d40?placeholderIfAbsent=true&apiKey=bec7f973c0e14abe8a6a4aacdca9776f"
+            alt="Apple Music"
+            className="object-contain aspect-square w-[60px]"
+          />
+        </a>
+        <a href="#" className="flex flex-col justify-center p-2.5 my-auto">
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/bb5faad952f352f42a64b1153e2a2d01ebe6e11d?placeholderIfAbsent=true&apiKey=bec7f973c0e14abe8a6a4aacdca9776f"
+            alt="Facebook"
+            className="object-contain aspect-[1.02] w-[55px]"
+          />
+        </a>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
